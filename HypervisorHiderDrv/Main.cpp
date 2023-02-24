@@ -1,5 +1,4 @@
 #include "Global.h"
-int NtQuerySystemInformationIndex, NtUserWindowFromPointIndex, NtUserQueryWindowIndex, NtUserFindWindowExIndex, NtUserBuildHwndListIndex, NtUserGetForegroundWindowIndex;
 
 static void DriverUnload(IN PDRIVER_OBJECT DriverObject)
 {
