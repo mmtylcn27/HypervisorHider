@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="PE">
+      <UniqueIdentifier>{372279d1-d155-4263-a67c-aebae085832d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ntdll">
+      <UniqueIdentifier>{338abd09-0706-4a4a-8b34-f0594f27e18b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32u">
+      <UniqueIdentifier>{94393591-65eb-4f0c-a239-d32ff2b84afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hook">
+      <UniqueIdentifier>{de3e6d9f-af59-442b-9af8-43665474409d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="KarsperskyHook">
+      <UniqueIdentifier>{e00c44a7-787b-4155-989b-a1724578fd09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HookHelper">
+      <UniqueIdentifier>{7b91bc25-7d7f-4263-9d45-13c004577b22}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PEB.h">
+      <Filter>PE</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ntdll.h">
+      <Filter>Ntdll</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32u.h">
+      <Filter>Win32u</Filter>
+    </ClInclude>
+    <ClInclude Include="Hook.h">
+      <Filter>Hook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KasperskyHook\kaspersky.hpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KasperskyHook\kernel_modules.hpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KasperskyHook\pe.hpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="..\KasperskyHook\utils.hpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookHelper.h">
+      <Filter>HookHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="Windef.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PEB.cpp">
+      <Filter>PE</Filter>
+    </ClCompile>
+    <ClCompile Include="Ntdll.cpp">
+      <Filter>Ntdll</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32u.cpp">
+      <Filter>Win32u</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hook.cpp">
+      <Filter>Hook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KasperskyHook\kaspersky.cpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KasperskyHook\kernel_modules.cpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KasperskyHook\pe.cpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="..\KasperskyHook\utils.cpp">
+      <Filter>KarsperskyHook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookHelper.cpp">
+      <Filter>HookHelper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
